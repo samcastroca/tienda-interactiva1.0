@@ -17,8 +17,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <select class="form-select form-select-sm mt-3" aria-label="Small select example">
-                    <option selected>Todos</option>
+                <select class="form-select form-select-sm mt-3" aria-label="Small select example" onchange="filtrarCategoria(this)">
+                    <option value="0" selected>Todos</option>
                     <option value="1">Categoría 1</option>
                     <option value="2">Categoría 2</option>
                     <option value="3">Categoría 3</option>
@@ -27,6 +27,7 @@
 
             <div class="col mt-3">
                 <h5>Carrito:</h5>
+                <div id="carrito"></div>
             </div>
 
         </div>
