@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(203, 219, 134);
+}
+
+#encabezado {
+    background-color: rgba(122, 219, 119, 0.658);
+}
+
+h1 {
+    color: rgb(179, 235, 174);
+    font-weight: bold;
+    font-size: 70px;
+}
