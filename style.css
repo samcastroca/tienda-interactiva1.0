@@ -11,3 +11,11 @@ h1 {
     font-weight: bold;
     font-size: 70px;
 }
+
+.productoH {
+    background-color: aliceblue;
+}
+
+.productoH:hover {
+    background-color: rgba(128, 128, 128, 0.219);
+}
