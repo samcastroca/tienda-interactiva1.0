@@ -1,1 +1,1 @@
-# tienda-interactiva2
+# tienda-interactiva
